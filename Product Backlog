@@ -1,0 +1,39 @@
+USERS-
+1.	Ride taker-
+Student who requests a ride from pickup location to destination
+2.	Ride giver-
+Student who offers a ride with his/her own car to a particular destination at a specified time
+
+Product Backlog-
+STORY001-
+As a ride taker, I want to book a ride from pickup location to drop off location so that I can reach the destination
+STORY002-
+As a ride giver , I want to post my ride availability so that I can offer rides to other students
+STORY003-
+As a ride taker, I want to verify if the ride giver is a student so that I can have a safe drive
+STORY004-
+As a ride giver, I want to collect money from giving rides so that I can help students as well as earn money
+STORY005-
+As a ride taker, I want to pay an amount of money lesser than taxi companies for the ride taken so that I do not spend a lot of money for travel
+STORY006-
+As a ride giver, I must be able to login with my username and password so that I have a safe entry into the application
+STORY007-
+As a ride taker, I must be able to login with my username and password so that I have a safe entry into the application
+STORY008-
+As a ride giver, I must be able to sign up with my details so that I can register into the application
+STORY009-
+As a ride taker, I must be able to sign up with my details so that I can register into the application
+STORY010-
+As a ride taker, I must be able to search for rides to my destination without logging in so that I can see if rides are available
+STORY011-
+As a ride taker, I must be able to book a ride only after logging in so that I can reach my slot is booked with the ride giver
+STORY012-
+As a ride giver, I must be able to update my personal information so that any changes in my profile are updated
+STORY013-
+As a ride taker, I must be able to update my personal information so that any changes in my profile are updated
+STORY014-
+As a ride giver, I must be able to upload pictures of my car so that the ride takers can see it
+STORY015-
+As a ride taker, I must be able to give rating to the ride givers after taking their ride so that I can share my ride experience
+
+
