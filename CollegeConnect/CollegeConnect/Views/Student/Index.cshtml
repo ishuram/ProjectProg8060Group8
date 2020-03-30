@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model DataModels.Models.Student
+
+@{
+    ViewData["Title"] = "Student";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<fieldset>
+    @using (Html.BeginForm())
+    {
+        <p>
+            @Html.LabelFor(model => model.Start)
+            @Html.EditorFor(model => model.Start)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.Dest)
+            @Html.EditorFor(model => model.Dest)
+        </p>
+     
+
+
+        <button type="submit" action="">Submit</button>
+    }
+
+
+</fieldset>
+
+@if (Model != null)
+{
+    <hr />
+    <h1>Profile</h1>
+
+    <h2>@Model.Email</h2>
+
+    <h3>Number: @Model.Start to @Model.Dest</h3>
+
+    <h4>@Model.DateCreated</h4>
+}
+
+
