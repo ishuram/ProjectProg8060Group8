@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAA0UbsZArXk2S0nNrOlap9QAAAAACAAAAAAAQZgAAAAEAACAAAADtP0SamwHpFrO39fPGbndX5GK55gTFBbB40pG/v6xEzgAAAAAOgAAAAAIAACAAAABehobiGfiec7h1H8YDNSfbUq9iAfgaHANtq8bttfjldoAAAACrgbcozE72MCkHnQab5GWNILnZFMglUhuHO5C0/3GGJR/i1P9QZ5G34w2E5HMakjRrW1Xg39gB56nuqgbRj0rl01RPZ1xNrUpSCnZv7G7yJO12VvBR2e5bSweAafw/FUbsCVbZcVTuBxkKNnJsNbM2N27S9Ab6QzoGC2xlF1fop0AAAADZNK8xAEa6967E6ihP4O3CE9xi4PQd1QddT0oBbcS0YpaxsecdBd+9AcXDfkHeIU0jKVatgYyYFOuefQn0bUEZ</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CollegeConnectContextConnection">
+      <Value>Server=collegeconnect.database.windows.net%3bDatabase=Project%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=collegeconnect.database.windows.net%3bDatabase=Project%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

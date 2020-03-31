@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAA0UbsZArXk2S0nNrOlap9QAAAAACAAAAAAAQZgAAAAEAACAAAAC9oe0iDh4t9jFzcA1tLBgMHgmuW+DsAvizISQONRgcOwAAAAAOgAAAAAIAACAAAAC9ckiYpyULhEEn7DZUHvrbc21GU8D+mwUnpJapgddaEoAAAABKYddJBJikd2ZbWmyRbt079gIZ2dwcztLqENBkdqbiKh4dIVaw8+YiYRRqcEZjZ6viRwOcRloMEx+TZTfunPnpU2+xRH60Wtvvv1ylClhZkdXm7F+y5dGu/wn4duLA3tTmgYAlefKX08vwBZ2RJJUqvDbEEEmwpONZPtFOFYD2okAAAADqmY7jU2J53NT/qUsEa7g2a1uatPXC0g/Trcrky76ckQByzPHXpiHDwLHZmhD2V7MRN13OR5DgVRSze/Qd4R95</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CollegeConnectContextConnection">
+      <Value>Server=tcp:collegeconnect.database.windows.net,1433%3bInitial Catalog=Project%3bPersist Security Info=False%3bUser ID=grp8%3bPassword=pass%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:collegeconnect.database.windows.net,1433%3bInitial Catalog=Project%3bPersist Security Info=False%3bUser ID=grp8%3bPassword=pass%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

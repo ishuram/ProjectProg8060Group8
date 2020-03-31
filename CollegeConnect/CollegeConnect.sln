@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollegeConnect", "CollegeConnect\CollegeConnect.csproj", "{A3F4A12B-F0A9-4DFC-B7B3-B718E1D23E79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{88548AC8-88CC-4CA3-AEF8-E5307FFF1CAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{88548AC8-88CC-4CA3-AEF8-E5307FFF1CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{1D24B072-BC33-4D78-9BFD-E29A12C6A652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{1D24B072-BC33-4D78-9BFD-E29A12C6A652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModels", "DataModels\DataModels.csproj", "{7B46392B-BBFE-4B3A-9F7E-2D883444023F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModels", "DataModels\DataModels.csproj", "{7B46392B-BBFE-4B3A-9F7E-2D883444023F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeConnectTests", "CollegeConnectTests\CollegeConnectTests.csproj", "{A40C964B-F3E3-49D5-A6D2-30081262FD03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7B46392B-BBFE-4B3A-9F7E-2D883444023F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B46392B-BBFE-4B3A-9F7E-2D883444023F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B46392B-BBFE-4B3A-9F7E-2D883444023F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40C964B-F3E3-49D5-A6D2-30081262FD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40C964B-F3E3-49D5-A6D2-30081262FD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40C964B-F3E3-49D5-A6D2-30081262FD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40C964B-F3E3-49D5-A6D2-30081262FD03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -34,6 +34,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.1",
           "Microsoft.Extensions.Configuration": "3.1.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.1",
+          "Selenium.WebDriver": "3.141.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "System.Data.SqlClient": "4.8.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -1355,6 +1356,20 @@
           }
         }
       },
+      "Selenium.WebDriver/3.141.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "3.141.0.0",
+            "fileVersion": "3.141.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -2346,6 +2361,7 @@
           "Dapper": "2.0.30",
           "DataModels": "1.0.0",
           "Microsoft.Extensions.Configuration": "3.1.3",
+          "Selenium.WebDriver": "3.141.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "System.Data.SqlClient": "4.8.1"
         },
@@ -2360,6 +2376,7 @@
         "dependencies": {
           "Dapper": "2.0.30",
           "Microsoft.Extensions.Configuration": "3.1.3",
+          "Selenium.WebDriver": "3.141.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "System.Data.SqlClient": "4.8.1"
         },
@@ -2376,6 +2393,7 @@
           "Dapper": "2.0.30",
           "DataModels": "1.0.0",
           "Microsoft.Extensions.Configuration": "3.1.3",
+          "Selenium.WebDriver": "3.141.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "System.Data.SqlClient": "4.8.1"
         },
@@ -4536,6 +4554,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "path": "selenium.webdriver/3.141.0",
+      "hashPath": "selenium.webdriver.3.141.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

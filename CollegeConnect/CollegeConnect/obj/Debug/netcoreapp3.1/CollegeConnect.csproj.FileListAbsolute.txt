@@ -197,8 +197,6 @@ C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\College
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\CollegeConnect.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\CollegeConnect.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\bin\Debug\netcoreapp3.1\DataModels.dll
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\bin\Debug\netcoreapp3.1\DataModels.pdb
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\Razor\Views\Student\Index.cshtml.g.cs
@@ -210,3 +208,6 @@ C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\College
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\Razor\Views\Student\FindRide.cshtml.g.cs
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\Razor\Views\Student\Sucess.cshtml.g.cs
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\Razor\Views\Student\AllRides.cshtml.g.cs
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\CollegeConnect.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\CollegeConnect.MvcApplicationPartsAssemblyInfo.cache
