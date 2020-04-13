@@ -211,3 +211,4 @@ C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\College
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\CollegeConnect.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\CollegeConnect.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Debug\netcoreapp3.1\Razor\Views\Student\History.cshtml.g.cs

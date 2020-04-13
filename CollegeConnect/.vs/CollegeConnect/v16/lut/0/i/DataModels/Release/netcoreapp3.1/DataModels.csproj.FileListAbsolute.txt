@@ -1,0 +1,6 @@
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\DataModels\Release\netcoreapp3.1\DataModels.deps.json
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\DataModels\Release\netcoreapp3.1\DataModels.dll
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DataModels\Release\netcoreapp3.1\DataModels.AssemblyInfoInputs.cache
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DataModels\Release\netcoreapp3.1\DataModels.AssemblyInfo.cs
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DataModels\Release\netcoreapp3.1\DataModels.csproj.CopyComplete
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DataModels\Release\netcoreapp3.1\DataModels.dll

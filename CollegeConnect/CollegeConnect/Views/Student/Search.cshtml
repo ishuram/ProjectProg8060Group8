@@ -16,15 +16,23 @@
         <p>
             @Html.LabelFor(model => model.Start)
             @Html.EditorFor(model => model.Start)
+           
         </p>
         <p>
             @Html.LabelFor(model => model.Dest)
             @Html.EditorFor(model => model.Dest)
         </p>
-
-
+       @if (ViewBag.Message != null)
+       {
+<script type="text/javascript">
+    window.onload = function () {
+        alert("@ViewBag.Message");
+    };
+    </script>
+       }
 
         <button type="submit" >Submit</button>
+
     }
 
 
@@ -39,7 +47,7 @@
 
     <h3>Number: @Model.Start to @Model.Dest</h3>
 
-    
+
 }
 
 

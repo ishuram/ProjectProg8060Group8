@@ -58,9 +58,15 @@ html {
   min-height: 100%;
 }
 
+
+	
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+   background-image:url("pic12.jpg");
+   opacity:1.5;
+
+ 
 }
 .footer {
   position: absolute;

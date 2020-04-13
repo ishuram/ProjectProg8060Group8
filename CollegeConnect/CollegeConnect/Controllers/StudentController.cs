@@ -29,6 +29,7 @@ namespace CollegeConnect.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+
             return View();
         }
         
@@ -55,16 +56,32 @@ namespace CollegeConnect.Controllers
         {
             return View();
         }
+        //[HttpGet]
+        //public IActionResult History()
+        //{
+        //    return View();
+        //}
         [HttpPost]
         public IActionResult Search(Student r)
         {
 
-            //r.Email = User.Identity.Name;
-            //r.DateCreated = DateTime.Now;
-            //r.SType = "S";
-           // StudentHandler handler = new StudentHandler(_configuration);
-           // var newcontact = handler.AddStudent(r);
-            return RedirectToAction("FindRide",r);
+            r.Email = User.Identity.Name;
+            r.DateCreated = DateTime.Now;
+            r.SType = "S";
+          
+            if (r.CheckNotEmpty() && r.CheckDestNotEmpty())
+            {
+                StudentHandler handler = new StudentHandler(_configuration);
+                var newcontact = handler.AddStudent(r);
+                return RedirectToAction("FindRide", r);
+            }
+            else
+            {
+                
+                ViewBag.Message="Enter all details in proper format!";
+                return View();
+            }
+          
 
 
         }
@@ -72,12 +89,21 @@ namespace CollegeConnect.Controllers
         {
             StudentHandler handler = new StudentHandler(_configuration);
             var contacts = handler.GetAllStudentSearch(r);
+            
             return View(contacts);
         }
         public IActionResult AllRides()
         {
             StudentHandler handler = new StudentHandler(_configuration);
             var contacts = handler.GetAllStudent();
+            return View(contacts);
+        }
+        //[HttpPost]
+        public IActionResult History(Student r)
+        {
+            string email= User.Identity.Name;
+            StudentHandler handler = new StudentHandler(_configuration);
+            var contacts = handler.GetAllStudentHistory(email);
             return View(contacts);
         }
     }

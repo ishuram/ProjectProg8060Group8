@@ -1,0 +1,7 @@
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\DAL\Release\netcoreapp3.1\DAL.deps.json
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\DAL\Release\netcoreapp3.1\DAL.dll
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DAL\Release\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DAL\Release\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DAL\Release\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DAL\Release\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\DAL\Release\netcoreapp3.1\DAL.dll

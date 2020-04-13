@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CollegeConnect/.vs/CollegeConnect/v16/Server/sqlite3

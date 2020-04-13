@@ -30,11 +30,19 @@ namespace Library.BusinessLogic
             var contacts = db.GetAllContactsFromDatabase();
             return contacts;
         }
+
         public Student[] GetAllStudentSearch(Student r)
         {
 
             DataAccess db = new DataAccess(_configuration);
             var contacts = db.GetAllContactsFromDatabaseSearch(r);
+            return contacts;
+        }
+        public Student[] GetAllStudentHistory(String email)
+        {
+
+            DataAccess db = new DataAccess(_configuration);
+            var contacts = db.GetAllContactsFromDatabaseHistory(email);
             return contacts;
         }
 

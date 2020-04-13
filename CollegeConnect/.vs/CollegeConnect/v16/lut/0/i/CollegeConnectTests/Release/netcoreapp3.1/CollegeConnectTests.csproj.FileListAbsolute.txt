@@ -1,0 +1,12 @@
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\CollegeConnectTests\Release\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\CollegeConnectTests\Release\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\CollegeConnectTests\Release\netcoreapp3.1\nunit.engine.dll
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\CollegeConnectTests\Release\netcoreapp3.1\nunit.engine.api.dll
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\CollegeConnectTests\Release\netcoreapp3.1\CollegeConnectTests.deps.json
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\CollegeConnectTests\Release\netcoreapp3.1\CollegeConnectTests.runtimeconfig.json
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\CollegeConnectTests\Release\netcoreapp3.1\CollegeConnectTests.runtimeconfig.dev.json
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\b\CollegeConnectTests\Release\netcoreapp3.1\CollegeConnectTests.dll
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\CollegeConnectTests\Release\netcoreapp3.1\CollegeConnectTests.AssemblyInfoInputs.cache
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\CollegeConnectTests\Release\netcoreapp3.1\CollegeConnectTests.AssemblyInfo.cs
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\CollegeConnectTests\Release\netcoreapp3.1\CollegeConnectTests.csproj.CopyComplete
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\.vs\CollegeConnect\v16\lut\0\i\CollegeConnectTests\Release\netcoreapp3.1\CollegeConnectTests.dll

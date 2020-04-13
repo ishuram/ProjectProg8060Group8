@@ -38,6 +38,15 @@ namespace DAL
                 return contacts;
             }
         }
+        public Student[] GetAllContactsFromDatabaseHistory(String email)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.BlogConnectionStringValue(configuration, DALconnectionString)))
+            {
+                string querystring = "select * from Student where Student.SType='" + "S" + "' and Student.Email= '" + email + "'order by DateCreated;";
+                Student[] contacts = connection.Query<Student>(querystring).ToArray();
+                return contacts;
+            }
+        }
 
         public object ContactToDatabase(Student student)
         {

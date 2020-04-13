@@ -22,6 +22,7 @@ namespace CollegeConnect.Controllers
 
         public IActionResult Index()
         {
+            //ViewBag.BackgroudImage = "C:\\Users\\ishur\\source\repos\\ishuram\\ProjectProg8060Group8\\CollegeConnect\\CollegeConnect\\Controllers\\cloud.jpg";
             return View();
         }
 

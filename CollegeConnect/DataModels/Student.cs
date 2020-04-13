@@ -15,5 +15,23 @@ namespace DataModels.Models
         public DateTime DateCreated { get; set; }
         public string SType { get; set; }
 
+        public bool CheckNotEmpty()
+        {
+            bool result = true;
+            if (Start.Contains('@')|| Start.Contains('!')|| Start.Contains('*')|| Start.Contains('#'))
+            {
+                result = false;
+            }
+            return result;
+        }
+        public bool CheckDestNotEmpty()
+        {
+            bool result = true;
+            if (Dest.Contains('@') || Dest.Contains('!') || Dest.Contains('*') || Dest.Contains('#'))
+            {
+                result = false;
+            }
+            return result;
+        }
     }
 }
