@@ -211,3 +211,4 @@ C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\College
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Release\netcoreapp3.1\CollegeConnect.dll
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Release\netcoreapp3.1\CollegeConnect.pdb
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\bin\Release\netcoreapp3.1\WebDriver.dll
+C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnect\obj\Release\netcoreapp3.1\Razor\Views\Student\History.cshtml.g.cs

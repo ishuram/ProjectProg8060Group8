@@ -11,7 +11,7 @@ namespace CollegeConnectTests
     class UnitTests
     {
         [Test]
-        public void InputOttawa_CheckInputNotEmpty_ExpectedTrue()
+        public void InputOttawa_CheckInputNotSplChar_ExpectedTrue()
         {
             
             Student student = new Student();
@@ -20,7 +20,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, true);
         }
         [Test]
-        public void InputOttawaexclamation_CheckInputNotEmpty_ExpectedFalse()
+        public void InputOttawaexclamation_CheckInputNotSplChar_ExpectedFalse()
         {
 
             Student student = new Student();
@@ -29,7 +29,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputOttawaat_CheckInputNotEmpty_ExpectedFalse()
+        public void InputOttawaat_CheckInputNotSplChar_ExpectedFalse()
         {
 
             Student student = new Student();
@@ -38,7 +38,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputOttawahash_CheckInputNotEmpty_ExpectedFalse()
+        public void InputOttawahash_CheckInputNotSplChar_ExpectedFalse()
         {
 
             Student student = new Student();
@@ -47,7 +47,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputOttawastar_CheckInputNotEmpty_ExpectedFalse()
+        public void InputOttawastar_CheckInputNotSplChar_ExpectedFalse()
         {
 
             Student student = new Student();
@@ -56,7 +56,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputSouth_CheckDestNotEmpty_ExpectedTrue()
+        public void InputSouth_CheckDestNotSplChar_ExpectedTrue()
         {
 
             Student student = new Student();
@@ -65,7 +65,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, true);
         }
         [Test]
-        public void InputSouthexc_CheckDestNotEmpty_ExpectedFalse()
+        public void InputSouthexc_CheckDestNotSplChar_ExpectedFalse()
         {
 
             Student student = new Student();
@@ -74,7 +74,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputSouthat_CheckDestNotEmpty_ExpectedFalse()
+        public void InputSouthat_CheckDestNotSplChar_ExpectedFalse()
         {
 
             Student student = new Student();
@@ -83,7 +83,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputSouthhash_CheckDestNotEmpty_ExpectedFalse()
+        public void InputSouthhash_CheckDestNotSplChar_ExpectedFalse()
         {
 
             Student student = new Student();
@@ -92,7 +92,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputSouthstar_CheckDestNotEmpty_ExpectedFalse()
+        public void InputSouthstar_CheckDestNotSplChar_ExpectedFalse()
         {
 
             Student student = new Student();
