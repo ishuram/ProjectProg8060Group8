@@ -12,7 +12,7 @@ using NUnit.Compatibility;
 namespace CollegeConnectTests
 {
     [TestFixture]
-    public class Class1
+    public class UITests
     {
         private IWebDriver driver;
         private StringBuilder verificationErrors;
@@ -52,7 +52,7 @@ namespace CollegeConnectTests
         }
 
         [Test]
-        public void TheAuthTest()
+        public void TheAuthTest() //Checks if unregistered user cannot post a ride
         {
             driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
             driver.FindElement(By.LinkText("Post Ride")).Click();
@@ -61,7 +61,7 @@ namespace CollegeConnectTests
         }
 
         [Test]
-        public void TheAuthfindTest()
+        public void TheAuthfindTest() //Checks if unregistered user cannot find a ride
         {
             driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
             driver.FindElement(By.LinkText("Find Ride")).Click();
@@ -70,7 +70,7 @@ namespace CollegeConnectTests
         }
 
         [Test]
-        public void TheSearchauthTest()
+        public void TheSearchauthTest() //Checks if authorized user can search ride
         {
             driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
             driver.FindElement(By.LinkText("Find Ride")).Click();
@@ -90,7 +90,7 @@ namespace CollegeConnectTests
         }
 
         [Test]
-        public void TheAllRideTest()
+        public void TheAllRideTest() // Checks if all posted rides are listed
         {
             driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
             driver.FindElement(By.LinkText("Find Ride")).Click();

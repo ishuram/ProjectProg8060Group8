@@ -1,0 +1,11 @@
+1. Open SQL Server
+2. Create a database called Project
+3. Run the sql files one by one.
+4. Run CreateStudent.sql
+5. Run CreateAspNetUsers.sql 
+6. Run CreateAspNetRoles.sql
+7. Run CreateAspNetRoleClaims.sql
+8. Run CreateAspNetUserRoles.sql
+9. Run CreateAspNetUserLogins.sql
+10.Run CreateAspNetUserTokens.sql
+11.Run CreateAspNetUSerClaims.sql

@@ -5,4 +5,3 @@ C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\DataMod
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\DataModels\bin\Debug\netcoreapp3.1\DataModels.pdb
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\DataModels\obj\Debug\netcoreapp3.1\DataModels.dll
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\DataModels\obj\Debug\netcoreapp3.1\DataModels.pdb
-C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\DataModels\obj\Debug\netcoreapp3.1\DataModels.csprojAssemblyReference.cache

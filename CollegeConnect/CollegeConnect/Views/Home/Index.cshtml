@@ -1,15 +1,16 @@
 ﻿@{
     ViewData["Title"] = "CollegeConnect";
 }
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<div class="text-center">
+    <h1 class="display-4">Welcome to CollegeConnect!</h1>
+    <p>CollegeConnect lets you connect with your college mates and lets you give or take a ride. So register and enjoy the travel!</p>
+    <h4>
+        <a asp-controller="Student" asp-action="Index" class="btn btn-dark" role="button">Post Ride!</a><br /><br />
+        <a asp-controller="Student" asp-action="Search" class="btn btn-dark" role="button">Find Ride!</a><br /><br />
+        <a asp-controller="Student" asp-action="History" class="btn btn-dark" role="button">Search history!</a><br />
+    </h4>
+</div>
 
-    <div class="text-center"  >
-        <h1 class="display-4">Welcome to CollegeConnect!</h1>
-        <p>CollegeConnect lets you connect with your college mates and lets you give or take a ride. So register and enjoy the travel!</p>
-        <h4>
-            <a asp-controller="Student" asp-action="Index">Post Ride-Click here to give a Ride!</a><br />
-            <a asp-controller="Student" asp-action="Search">Find Ride-Click here to search for a Ride!</a><br />
-            <a asp-controller="Student" asp-action="History">Search history-Click here to see your previous searches!</a>
-        </h4>
-    </div>
-
- 

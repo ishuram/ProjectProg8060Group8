@@ -8,10 +8,10 @@ using DataModels.Models;
 namespace CollegeConnectTests
 {
     [TestFixture]
-    class UnitTests
+    class CollegeConnectUnitTests
     {
         [Test]
-        public void InputOttawa_CheckInputNotSplChar_ExpectedTrue()
+        public void InputOttawa_CheckInputNotSplChar_ExpectedTrue() // input given without any special character
         {
             
             Student student = new Student();
@@ -20,7 +20,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, true);
         }
         [Test]
-        public void InputOttawaexclamation_CheckInputNotSplChar_ExpectedFalse()
+        public void InputOttawaexclamation_CheckInputNotSplChar_ExpectedFalse()//  input given with special character !
         {
 
             Student student = new Student();
@@ -29,7 +29,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputOttawaat_CheckInputNotSplChar_ExpectedFalse()
+        public void InputOttawaat_CheckInputNotSplChar_ExpectedFalse() //  input given with special character @
         {
 
             Student student = new Student();
@@ -38,7 +38,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputOttawahash_CheckInputNotSplChar_ExpectedFalse()
+        public void InputOttawahash_CheckInputNotSplChar_ExpectedFalse() //  input given with special character #
         {
 
             Student student = new Student();
@@ -47,7 +47,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputOttawastar_CheckInputNotSplChar_ExpectedFalse()
+        public void InputOttawastar_CheckInputNotSplChar_ExpectedFalse() //  input given with special character *
         {
 
             Student student = new Student();
@@ -56,7 +56,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputSouth_CheckDestNotSplChar_ExpectedTrue()
+        public void InputSouth_CheckDestNotSplChar_ExpectedTrue() //  input given without special character 
         {
 
             Student student = new Student();
@@ -65,7 +65,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, true);
         }
         [Test]
-        public void InputSouthexc_CheckDestNotSplChar_ExpectedFalse()
+        public void InputSouthexc_CheckDestNotSplChar_ExpectedFalse() //  input given with special character !
         {
 
             Student student = new Student();
@@ -74,7 +74,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputSouthat_CheckDestNotSplChar_ExpectedFalse()
+        public void InputSouthat_CheckDestNotSplChar_ExpectedFalse() //  input given with special character @
         {
 
             Student student = new Student();
@@ -83,7 +83,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputSouthhash_CheckDestNotSplChar_ExpectedFalse()
+        public void InputSouthhash_CheckDestNotSplChar_ExpectedFalse() //  input given with special character #
         {
 
             Student student = new Student();
@@ -92,7 +92,7 @@ namespace CollegeConnectTests
             Assert.AreEqual(result, false);
         }
         [Test]
-        public void InputSouthstar_CheckDestNotSplChar_ExpectedFalse()
+        public void InputSouthstar_CheckDestNotSplChar_ExpectedFalse() //  input given with special character *
         {
 
             Student student = new Student();

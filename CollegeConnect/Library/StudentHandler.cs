@@ -23,7 +23,7 @@ namespace Library.BusinessLogic
         }
 
 
-        public Student[] GetAllStudent()
+        public Student[] GetAllStudent() //Get all ride details
         {
 
             DataAccess db = new DataAccess(_configuration);
@@ -31,14 +31,14 @@ namespace Library.BusinessLogic
             return contacts;
         }
 
-        public Student[] GetAllStudentSearch(Student r)
+        public Student[] GetAllStudentSearch(Student r) //Gets all the ride details of the search done
         {
 
             DataAccess db = new DataAccess(_configuration);
             var contacts = db.GetAllContactsFromDatabaseSearch(r);
             return contacts;
         }
-        public Student[] GetAllStudentHistory(String email)
+        public Student[] GetAllStudentHistory(String email) //Gets all the ride search done by the user
         {
 
             DataAccess db = new DataAccess(_configuration);
@@ -46,7 +46,7 @@ namespace Library.BusinessLogic
             return contacts;
         }
 
-        public object AddStudent(Student student)
+        public object AddStudent(Student student)  //Add student to the database
         {
             DataAccess db = new DataAccess(_configuration);
             var contacts = db.ContactToDatabase(student);

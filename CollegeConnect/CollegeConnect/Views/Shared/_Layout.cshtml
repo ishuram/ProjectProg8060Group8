@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - CollegeConnect</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+  
 </head>
 <body > 
  
@@ -33,14 +34,15 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            <img src="~/css/car1.png" height="100" width="100" align="middle" />
+            <img src="~/css/car1.png" height="100" width="100" align="middle" alt="Cars picture"/>
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - CollegeConnect - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer  class="border-top footer ">
+        
+        <div class="container"><b>
+            &copy; 2020 - CollegeConnect </b>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

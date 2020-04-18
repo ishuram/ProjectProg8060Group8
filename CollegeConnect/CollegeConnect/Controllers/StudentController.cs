@@ -43,7 +43,7 @@ namespace CollegeConnect.Controllers
             StudentHandler handler = new StudentHandler(_configuration);
             var newcontact = handler.AddStudent(student);
             return View("Sucess");
-           // return RedirectToAction("FindOrPostRide");
+           
 
             
         }
@@ -56,14 +56,10 @@ namespace CollegeConnect.Controllers
         {
             return View();
         }
-        //[HttpGet]
-        //public IActionResult History()
-        //{
-        //    return View();
-        //}
+       
         [HttpPost]
         public IActionResult Search(Student r)
-        {
+        { 
 
             r.Email = User.Identity.Name;
             r.DateCreated = DateTime.Now;
@@ -98,7 +94,7 @@ namespace CollegeConnect.Controllers
             var contacts = handler.GetAllStudent();
             return View(contacts);
         }
-        //[HttpPost]
+        
         public IActionResult History(Student r)
         {
             string email= User.Identity.Name;
