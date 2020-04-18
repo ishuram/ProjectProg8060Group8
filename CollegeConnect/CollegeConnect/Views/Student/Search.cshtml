@@ -14,12 +14,12 @@
     @using (Html.BeginForm())
     {
         <p>
-            @Html.LabelFor(model => model.Start)
+            <label>Enter Pickup Location:</label>
             @Html.EditorFor(model => model.Start)
            
         </p>
         <p>
-            @Html.LabelFor(model => model.Dest)
+            <label>Enter Drop Location:</label>
             @Html.EditorFor(model => model.Dest)
         </p>
        @if (ViewBag.Message != null)
