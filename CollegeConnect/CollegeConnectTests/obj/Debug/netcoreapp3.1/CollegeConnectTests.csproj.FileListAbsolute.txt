@@ -110,7 +110,6 @@ C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\College
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnectTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnectTests\bin\Debug\netcoreapp3.1\DataModels.dll
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnectTests\bin\Debug\netcoreapp3.1\DataModels.pdb
-C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnectTests\obj\Debug\netcoreapp3.1\CollegeConnectTests.csprojAssemblyReference.cache
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnectTests\obj\Debug\netcoreapp3.1\CollegeConnectTests.AssemblyInfoInputs.cache
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnectTests\obj\Debug\netcoreapp3.1\CollegeConnectTests.AssemblyInfo.cs
 C:\Users\ishur\source\repos\ishuram\ProjectProg8060Group8\CollegeConnect\CollegeConnectTests\obj\Debug\netcoreapp3.1\CollegeConnectTests.csproj.CopyComplete

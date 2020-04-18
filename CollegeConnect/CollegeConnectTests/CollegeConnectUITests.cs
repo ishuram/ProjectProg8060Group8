@@ -44,36 +44,39 @@ namespace CollegeConnectTests
         [Test]
         public void TheLoadTest()
         {
-            driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
-            driver.FindElement(By.XPath("//body")).Click();
-            driver.FindElement(By.XPath("//html")).Click();
-            driver.FindElement(By.XPath("//h1")).Click();
-            Assert.AreEqual("CollegeConnect - CollegeConnect", driver.Title);
+            driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net/");
+            driver.FindElement(By.XPath("//div")).Click();
+            Assert.AreEqual("CollegeConnect", driver.FindElement(By.LinkText("CollegeConnect")).Text);
         }
 
         [Test]
         public void TheAuthTest() //Checks if unregistered user cannot post a ride
         {
-            driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
-            driver.FindElement(By.LinkText("Post Ride")).Click();
+            driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net/");
+            driver.FindElement(By.LinkText("Post Ride!")).Click();
             driver.FindElement(By.XPath("//h1")).Click();
-            Assert.AreEqual("Log in", driver.FindElement(By.XPath("//h1")).Text);
+            driver.FindElement(By.XPath("//h1")).Click();
+            driver.FindElement(By.Id("account")).Click();
+            Assert.AreEqual("Use a local account to log in.", driver.FindElement(By.XPath("//form[@id='account']/h4")).Text);
         }
 
         [Test]
         public void TheAuthfindTest() //Checks if unregistered user cannot find a ride
         {
-            driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
-            driver.FindElement(By.LinkText("Find Ride")).Click();
+            driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net/");
+            
+            driver.FindElement(By.LinkText("Find Ride!")).Click();
             driver.FindElement(By.XPath("//h1")).Click();
-            Assert.AreEqual("Log in", driver.FindElement(By.XPath("//h1")).Text);
+            driver.FindElement(By.XPath("//h1")).Click();
+            driver.FindElement(By.Id("account")).Click();
+            Assert.AreEqual("Use a local account to log in.", driver.FindElement(By.XPath("//form[@id='account']/h4")).Text);
         }
 
         [Test]
         public void TheSearchauthTest() //Checks if authorized user can search ride
         {
-            driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
-            driver.FindElement(By.LinkText("Find Ride")).Click();
+            driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net/");
+            driver.FindElement(By.Id("login")).Click();
             driver.FindElement(By.Id("Input_Email")).Click();
             driver.FindElement(By.Id("Input_Email")).Clear();
             driver.FindElement(By.Id("Input_Email")).SendKeys("aadhi231@conestogac.on.ca");
@@ -81,19 +84,25 @@ namespace CollegeConnectTests
             driver.FindElement(By.Id("Input_Password")).Clear();
             driver.FindElement(By.Id("Input_Password")).SendKeys("Ishu@123");
             driver.FindElement(By.XPath("//button[@type='submit']")).Click();
+            driver.FindElement(By.LinkText("Find Ride!")).Click();
+            driver.FindElement(By.Id("Start")).Click();
+            driver.FindElement(By.Id("Start")).Clear();
+            driver.FindElement(By.Id("Start")).SendKeys("hazelglen");
+            driver.FindElement(By.Id("Dest")).Click();
+            driver.FindElement(By.Id("Dest")).Clear();
+            driver.FindElement(By.Id("Dest")).SendKeys("mooregate");
             driver.FindElement(By.XPath("//h1")).Click();
-            driver.FindElement(By.XPath("//h1")).Click();
-            driver.FindElement(By.XPath("//h1")).Click();
-            // ERROR: Caught exception [ERROR: Unsupported command [doubleClick | //h1 | ]]
             Assert.AreEqual("Search", driver.FindElement(By.XPath("//h1")).Text);
+            driver.FindElement(By.XPath("//body")).Click();
+            driver.FindElement(By.XPath("//html")).Click();
             driver.FindElement(By.Id("logout")).Click();
         }
 
         [Test]
-        public void TheAllRideTest() // Checks if all posted rides are listed
+        public void TheCheckAllRideTest() // Checks if all posted rides are listed
         {
             driver.Navigate().GoToUrl("https://collegeconnect20200330060626.azurewebsites.net");
-            driver.FindElement(By.LinkText("Find Ride")).Click();
+            driver.FindElement(By.LinkText("Find Ride!")).Click();
             driver.FindElement(By.Id("Input_Email")).Click();
             driver.FindElement(By.Id("Input_Email")).Clear();
             driver.FindElement(By.Id("Input_Email")).SendKeys("aadhi231@conestogac.on.ca");
